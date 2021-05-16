@@ -1,0 +1,280 @@
+@media only screen and (min-width: 1000px) {
+body {
+	
+	     background-color: white;     text-align: center;     height: 100%;     width: 100%;     overflow: hidden; 
+}
+h1 {
+	position: relative;
+	 text-align: center;
+	
+}
+
+.wiosna {
+	float:left;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-left: 2%;
+	padding-right: 5%;
+	
+	
+	
+}
+
+
+
+.zolt {
+	background-color: yellow;
+	position:relative;
+	
+	
+}
+
+.lato {
+	float:left;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-right: 5%;
+}
+
+.zielony {
+	background-size: auto;
+	background-color: #9ffb88;
+}
+
+
+
+
+.jesien {
+	float:left;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-right: 5%;
+	
+	
+	
+	
+}
+
+.pomaranczowy {
+	background-color: orange;
+	position:relative;
+
+	
+}
+
+.zima {
+	float:left;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	
+	
+}
+
+.niebieski {
+	background-color: #84eeff;
+	position:relative;
+
+	
+}
+
+	img {
+	position: relative;
+	width: 100%;
+	height: 60%
+	
+}
+
+h2
+{
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+.opiswiosna {
+	background-color: yellow;
+	width: 100%;
+	height: 140%;
+	
+}
+
+
+
+
+.opislato {
+	background-color: #9ffb88;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.opisjesien {
+	background-color: orange;
+	width: 100%;
+	height: 140%;
+}
+
+.opiszima {
+	background-color: #84eeff;
+	width: 100%;
+	height: 140%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1000px)
+
+{
+
+body {
+	
+	     background-color: white;     text-align: center;     height: 100%;     width: 100%;   
+}
+h1 {
+	position: relative;
+	 text-align: center;
+	
+}
+
+.wiosna {
+	float: bottom;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-left: 40%;
+	padding-right: 5%;
+	
+	
+	
+}
+
+
+
+.zolt {
+	background-color: yellow;
+	position:relative;
+	
+	
+}
+
+.lato {
+	float:bottom;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-left: 40%;
+	padding-right: 5%;
+}
+
+.zielony {
+	background-size: auto;
+	background-color: #9ffb88;
+}
+
+
+
+
+.jesien {
+	float:bottom;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-right: 5%;
+	padding-left: 40%;
+	
+	
+	
+}
+
+.pomaranczowy {
+	background-color: orange;
+	position:relative;
+
+	
+}
+
+.zima {
+	float:bottom;
+	position:relative;
+	width: 20%;
+	height: 20%;
+	padding-left: 40%;
+	
+}
+
+.niebieski {
+	background-color: #84eeff;
+	position:relative;
+
+	
+}
+
+	img {
+	position: relative;
+	width: 100%;
+	height: 60%
+	
+}
+
+h2
+{
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h4 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+.opiswiosna {
+	background-color: yellow;
+	width: 100%;
+	height: 140%;
+	
+}
+
+
+
+
+.opislato {
+	background-color: #9ffb88;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.opisjesien {
+	background-color: orange;
+	width: 100%;
+	height: 140%;
+}
+
+.opiszima {
+	background-color: #84eeff;
+	width: 100%;
+	height: 140%;
+}
+}

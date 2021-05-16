@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html lang ="pl">
+
+<head>
+	<meta charset="utf-8" />
+
+	<style>
+	
+		label {
+		font-size: 20px;
+		}
+	
+	</style>
+
+	<script type = "text/javascript" >
+
+		var pole1;
+		var pole2;
+		var pole3;
+
+		function wypisz() {
+		pole1 = Number(document.getElementById("pierwszy").value);
+		pole2 = Number(document.getElementById("ilosc").value);
+		pole3 = Number(document.getElementById("roznica").value);
+		
+		var ciag = "";
+		var wypisywanie = "";
+		
+		for (i=1; i<=pole2; i++)	{
+		ciag +=(pole1 + ((i-1)*pole3) + ", ");
+		wypisywanie+=ciag + "</br>";	}
+		
+		wypisywanie= ciag + "</br> </br>" + wypisywanie;
+		document.getElementById("wynik").innerHTML = wypisywanie;
+		console.log(wypisywanie);
+		
+		}
+
+
+	</script>
+</head>
+
+<body>
+	
+	<label>Pierwszy wyraz --> <input type="number" id = "pierwszy"/> </label>
+	<label>Ilość wyrazów --> <input type="number" id = "ilosc"/> </label>
+	<label>Różnica ciągu --> <input type="number" id = "roznica"/></label>
+	
+	<input type="submit" value="Pokaż" onclick="wypisz()"/>
+	<div id="wynik"> </div>
+
+</body>
+
+
+
+</html>
